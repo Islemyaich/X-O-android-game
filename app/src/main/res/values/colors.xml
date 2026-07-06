@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#004225</color>
+    <color name="card_green">#065535</color>
+    <color name="input_green">#07513F</color>
+    <color name="line_green">#1D7A67</color>
+    <color name="border_green">#2E7567</color>
+    <color name="border_green_soft">#2E8B7A</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="text_soft">#D7E7E2</color>
+    <color name="text_hint">#8FB3A9</color>
+    <color name="text_muted">#9CB8B0</color>
+    <color name="text_subtitle">#CCCCCC</color>
+
+    <color name="cyan_main">#20D6FF</color>
+    <color name="cyan_dark">#0A7C88</color>
+    <color name="cyan_fill">#0B7F73</color>
+
+    <color name="orange_main">#FFA500</color>
+    <color name="orange_dark">#6A4A00</color>
+    <color name="orange_fill">#5F4500</color>
+    <color name="orange_glow">#553300</color>
+    <color name="orange_fill_soft">#3A2A00</color>
+
+    <color name="round_green">#0D8B72</color>
+    <color name="round_green_border">#22B38D</color>
+    <color name="play_grad_start">#0A8E8C</color>
+    <color name="play_grad_end">#2AA52B</color>
+
+    <!-- Add this for result screen -->
+    <color name="winner_gold">#FFD700</color>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home Screen -->
+    <string name="app_name">Tournoi X-O</string>
+    <string name="subtitle">Choisissez vos champions</string>
+    <string name="choose_symbol">Choisir le symbole</string>
+    <string name="difficulty">Difficulté</string>
+    <string name="ai_subtitle">L\'IA contrôlera le Joueur 2</string>
+    <string name="auto_assigned">Attribué automatiquement</string>
+    <string name="player1">Nom du Joueur 1</string>
+    <string name="player2">Nom du Joueur 2</string>
+    <string name="play_vs_ai">Jouer contre l\'ordinateur</string>
+    <string name="easy">Facile</string>
+    <string name="medium">Moyen</string>
+    <string name="hard">Difficile</string>
+    <string name="play">Jouer</string>
+    <string name="rules">Règles du jeu</string>
+    <string name="scores">Voir les scores</string>
+    <string name="en">EN</string>
+    <string name="fr">FR</string>
+    <string name="ar">AR</string>
+
+    <!-- Game Screen -->
+    <string name="round">Manche</string>
+    <string name="of">sur</string>
+    <string name="draws">Matchs nuls</string>
+    <string name="turn">au tour</string>
+    <string name="reset_round">Réinitialiser la manche</string>
+    <string name="round_over">Manche terminée</string>
+
+    <!-- Result Screen -->
+    <string name="winner">GAGNANT</string>
+    <string name="total_rounds">Total des manches</string>
+    <string name="date">Date</string>
+    <string name="save_tournament">Sauvegarder le tournoi</string>
+    <string name="back_to_home">Retour à l\'accueil</string>
+    <string name="tournament_results">Résultats du tournoi</string>
+    <string name="saved">Sauvegardé</string>
+    <string name="draw">MATCH NUL</string>
+
+    <!-- History Screen -->
+    <string name="last_tournament_results">Derniers résultats du tournoi</string>
+    <string name="tournament_history">Historique des tournois</string>
+    <string name="previous">Précédent</string>
+    <string name="next">Suivant</string>
+    <string name="back">Retour</string>
+    <string name="no_tournament">Aucun tournoi sauvegardé</string>
+    <string name="no_history">Aucun historique de tournoi</string>
+
+    <!-- Rules Screen -->
+    <string name="game_rules">Règles du jeu X-O</string>
+    <string name="rules_text">RÈGLES DU JEU X-O\n\n1. Le jeu se joue sur une grille 3x3.\n\n2. Le joueur 1 utilise X, le joueur 2 utilise O.\n\n3. Les joueurs placent tour à tour leur symbole dans une case vide.\n\n4. Le premier joueur à aligner 3 de ses symboles (horizontalement, verticalement ou en diagonale) gagne.\n\n5. Si les 9 cases sont remplies et qu\'aucun joueur n\'a aligné 3 symboles, la partie est nulle.\n\n6. Un tournoi se compose de plusieurs manches.\n\n7. Le joueur avec le plus de victoires à la fin du tournoi est le champion.\n\n8. Vous pouvez jouer contre l\'IA avec 3 niveaux de difficulté: Facile, Moyen, Difficile.\n\n9. Les résultats du tournoi sont automatiquement sauvegardés et peuvent être consultés dans la section Scores.</string>
+
+    <!-- Toast Messages -->
+    <string name="round_draw">La manche s\'est terminée par un match nul</string>
+    <string name="wins_round">gagne cette manche</string>
+    <string name="round_reset">Manche réinitialisée</string>
+    <string name="tournament_saved">Tournoi sauvegardé</string>
+    <string name="game_reset">Partie réinitialisée</string>
+
+    <!-- History Item -->
+    <string name="vs">contre</string>
+    <string name="play_again">Rejouer</string>
+    <string name="online">Multijoueur en ligne</string>
+
+    <!-- Online Menu -->
+    <string name="online_multiplayer">Multijoueur en ligne</string>
+    <string name="your_name">Votre nom</string>
+    <string name="number_of_rounds">Nombre de manches</string>
+    <string name="enter_room_code_joining">Entrez le code de la salle (pour rejoindre)</string>
+    <string name="create_new_game">Créer une partie</string>
+    <string name="join_game">Rejoindre</string>
+    <string name="leave">Quitter</string>
+    <string name="create_game">Créer une partie</string>
+    <string name="enter_room_code">Code de la salle</string>
+    <string name="or">OU</string>
+
+    <!-- Online Game -->
+    <string name="room_code">Code de salle: %s</string>
+    <string name="you_are_x">Vous êtes: X</string>
+    <string name="you_are_o">Vous êtes: O</string>
+    <string name="waiting_for_opponent">Attente adversaire...</string>
+    <string name="game_starting">La partie commence! À vous</string>
+    <string name="your_turn">Votre tour</string>
+    <string name="opponent_turn">Tour de l\'adversaire</string>
+    <string name="game_created">Partie créée! Code: %s</string>
+    <string name="game_draw">Match nul</string>
+    <string name="player_wins">%s gagne</string>
+    <string name="only_host_reset">Seul l\'hôte peut réinitialiser</string>
+    <string name="game_full">Salle pleine ou invalide</string>
+    <string name="room_not_found">Salle introuvable</string>
+    <string name="connection_error">Erreur de connexion</string>
+    <string name="failed_create_game">Échec de création de la partie</string>
+    <string name="error_prefix">Erreur: </string>
+    <string name="create_error">Erreur lors de la création</string>
+    <string name="reset">Réinitialiser</string>
+
+    <!-- Online Tournament -->
+    <string name="online_tournament">Tournoi en ligne</string>
+    <string name="waiting_for_opponent_to_join">Attente de l\'adversaire</string>
+    <string name="round_x_of_y">Manche %d sur %d</string>
+    <string name="tournament_winner">Gagnant du tournoi</string>
+    <string name="final_winner">Gagnant final: %s</string>
+    <string name="match_point">Point décisif</string>
+
+</resources>

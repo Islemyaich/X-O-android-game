@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home Screen -->
+    <string name="app_name">بطولة X-O</string>
+    <string name="subtitle">اختر أبطالك</string>
+    <string name="choose_symbol">اختر رمزك</string>
+    <string name="difficulty">الصعوبة</string>
+    <string name="ai_subtitle">الذكاء الاصطناعي يتحكم باللاعب 2</string>
+    <string name="auto_assigned">تلقائي</string>
+    <string name="player1">اللاعب 1</string>
+    <string name="player2">اللاعب 2</string>
+    <string name="play_vs_ai">لعب ضد الكمبيوتر</string>
+    <string name="easy">سهل</string>
+    <string name="medium">متوسط</string>
+    <string name="hard">صعب</string>
+    <string name="play">لعب</string>
+    <string name="rules">قواعد اللعبة</string>
+    <string name="scores">النتائج</string>
+    <string name="en">EN</string>
+    <string name="fr">FR</string>
+    <string name="ar">AR</string>
+
+    <!-- Game Screen -->
+    <string name="round">جولة</string>
+    <string name="of">من</string>
+    <string name="draws">تعادلات</string>
+    <string name="turn">دور</string>
+    <string name="reset_round">إعادة تعيين الجولة</string>
+    <string name="round_over">انتهت الجولة</string>
+
+    <!-- Result Screen -->
+    <string name="winner">الفائز</string>
+    <string name="total_rounds">إجمالي الجولات</string>
+    <string name="date">التاريخ</string>
+    <string name="save_tournament">حفظ البطولة</string>
+    <string name="back_to_home">العودة للرئيسية</string>
+    <string name="tournament_results">نتائج البطولة</string>
+    <string name="saved">تم الحفظ</string>
+    <string name="draw">تعادل</string>
+
+    <!-- History Screen -->
+    <string name="last_tournament_results">نتائج آخر بطولة</string>
+    <string name="tournament_history">سجل البطولات</string>
+    <string name="previous">السابق</string>
+    <string name="next">التالي</string>
+    <string name="back">رجوع</string>
+    <string name="no_tournament">لا توجد بطولة محفوظة</string>
+    <string name="no_history">لا يوجد سجل</string>
+
+    <!-- Rules Screen -->
+    <string name="game_rules">قواعد اللعبة</string>
+    <string name="rules_text">قواعد لعبة X-O\n\n1. تُلعب اللعبة على شبكة 3x3.\n\n2. اللاعب 1 يستخدم X، اللاعب 2 يستخدم O.\n\n3. يضع اللاعبون رموزهم في الخلايا الفارغة بالتناوب.\n\n4. أول لاعب يحصل على 3 رموز في صف واحد (أفقياً، عمودياً، أو قطرياً) يفوز.\n\n5. إذا امتلأت جميع الخلايا التسعة ولا يوجد فائز، تنتهي اللعبة بالتعادل.\n\n6. تتكون البطولة من عدة جولات.\n\n7. اللاعب صاحب أكبر عدد من الانتصارات في نهاية البطولة هو البطل.\n\n8. يمكنك اللعب ضد الذكاء الاصطناعي بثلاثة مستويات: سهل، متوسط، صعب.\n\n9. يتم حفظ نتائج البطولة ويمكن عرضها في قسم النتائج.</string>
+
+    <!-- Toast Messages -->
+    <string name="round_draw">انتهت الجولة بالتعادل</string>
+    <string name="wins_round">يفوز بهذه الجولة</string>
+    <string name="round_reset">تم إعادة تعيين الجولة</string>
+    <string name="tournament_saved">تم حفظ البطولة</string>
+    <string name="game_reset">تم إعادة تعيين اللعبة</string>
+
+    <!-- History Item -->
+    <string name="vs">ضد</string>
+    <string name="play_again">لعب مرة أخرى</string>
+    <string name="online">متعددة اللاعبين</string>
+
+    <!-- Online Menu -->
+    <string name="online_multiplayer">متعددة اللاعبين عبر الإنترنت</string>
+    <string name="your_name">اسمك</string>
+    <string name="number_of_rounds">عدد الجولات</string>
+    <string name="enter_room_code_joining">أدخل رمز الغرفة (للانضمام)</string>
+    <string name="create_new_game">إنشاء لعبة جديدة</string>
+    <string name="join_game">انضم للعبة</string>
+    <string name="leave">مغادرة</string>
+    <string name="create_game">إنشاء لعبة جديدة</string>
+    <string name="enter_room_code">أدخل رمز الغرفة</string>
+    <string name="or">أو</string>
+
+    <!-- Online Game -->
+    <string name="room_code">رمز الغرفة: %s</string>
+    <string name="you_are_x">أنت: X</string>
+    <string name="you_are_o">أنت: O</string>
+    <string name="waiting_for_opponent">في انتظار الخصم...</string>
+    <string name="game_starting">تبدأ اللعبة! دورك</string>
+    <string name="your_turn">دورك</string>
+    <string name="opponent_turn">دور الخصم</string>
+    <string name="game_created">تم إنشاء اللعبة! الرمز: %s</string>
+    <string name="game_draw">انتهت اللعبة بالتعادل</string>
+    <string name="player_wins">اللاعب %s يفوز</string>
+    <string name="only_host_reset">فقط المضيف يمكنه إعادة التعيين</string>
+    <string name="game_full">الغرفة ممتلئة أو غير صالحة</string>
+    <string name="room_not_found">الغرفة غير موجودة</string>
+    <string name="connection_error">خطأ في الاتصال</string>
+    <string name="failed_create_game">فشل في إنشاء اللعبة</string>
+    <string name="error_prefix">خطأ: </string>
+    <string name="create_error">خطأ في إنشاء اللعبة</string>
+    <string name="reset">إعادة تعيين</string>
+
+    <!-- Online Tournament -->
+    <string name="online_tournament">بطولة عبر الإنترنت</string>
+    <string name="waiting_for_opponent_to_join">في انتظار الخصم</string>
+    <string name="round_x_of_y">الجولة %d من %d</string>
+    <string name="tournament_winner">الفائز في البطولة</string>
+    <string name="final_winner">البطل النهائي: %s</string>
+    <string name="match_point">نقطة حاسمة</string>
+
+</resources>

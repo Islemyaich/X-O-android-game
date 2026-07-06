@@ -1,0 +1,86 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- O en haut gauche -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M31,24m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0"
+        android:strokeWidth="3"
+        android:strokeColor="#F4F4F4"
+        android:strokeLineCap="round"/>
+
+    <!-- X en haut droite -->
+    <path
+        android:pathData="M69,16L84,31"
+        android:strokeWidth="4"
+        android:strokeColor="#F4F4F4"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M84,16L69,31"
+        android:strokeWidth="4"
+        android:strokeColor="#F4F4F4"
+        android:strokeLineCap="round"/>
+
+    <!-- Grille 3x3 centrale -->
+    <path
+        android:pathData="M27,42L81,42"
+        android:strokeWidth="2.5"
+        android:strokeColor="#CCFFFFFF"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M27,60L81,60"
+        android:strokeWidth="2.5"
+        android:strokeColor="#CCFFFFFF"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M45,24L45,78"
+        android:strokeWidth="2.5"
+        android:strokeColor="#CCFFFFFF"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M63,24L63,78"
+        android:strokeWidth="2.5"
+        android:strokeColor="#CCFFFFFF"
+        android:strokeLineCap="round"/>
+
+    <!-- O dans la grille -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M36,33m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:strokeWidth="2.2"
+        android:strokeColor="#F4F4F4"
+        android:strokeLineCap="round"/>
+
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,69m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:strokeWidth="2.2"
+        android:strokeColor="#F4F4F4"
+        android:strokeLineCap="round"/>
+
+    <!-- X dans la grille -->
+    <path
+        android:pathData="M49,46L59,56"
+        android:strokeWidth="2.6"
+        android:strokeColor="#F4F4F4"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M59,46L49,56"
+        android:strokeWidth="2.6"
+        android:strokeColor="#F4F4F4"
+        android:strokeLineCap="round"/>
+
+    <path
+        android:pathData="M67,64L77,74"
+        android:strokeWidth="2.6"
+        android:strokeColor="#F4F4F4"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M77,64L67,74"
+        android:strokeWidth="2.6"
+        android:strokeColor="#F4F4F4"
+        android:strokeLineCap="round"/>
+</vector>

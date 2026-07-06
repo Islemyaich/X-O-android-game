@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home Screen -->
+    <string name="app_name">X-O Tournament</string>
+    <string name="subtitle">Choose your champions</string>
+    <string name="choose_symbol">Choose Symbol</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="ai_subtitle">AI will control Player 2</string>
+    <string name="auto_assigned">Auto-assigned</string>
+    <string name="player1">Player 1 Name</string>
+    <string name="player2">Player 2 Name</string>
+    <string name="play_vs_ai">Play vs Computer</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="play">Play</string>
+    <string name="rules">Game Rules</string>
+    <string name="scores">View Scores</string>
+    <string name="en">EN</string>
+    <string name="fr">FR</string>
+    <string name="ar">AR</string>
+
+    <!-- Game Screen -->
+    <string name="round">Round</string>
+    <string name="of">of</string>
+    <string name="draws">Draws</string>
+    <string name="turn">\'s turn</string>
+    <string name="reset_round">Reset Round</string>
+    <string name="round_over">Round Over</string>
+
+    <!-- Result Screen -->
+    <string name="winner">WINNER</string>
+    <string name="total_rounds">Total Rounds</string>
+    <string name="date">Date</string>
+    <string name="save_tournament">Save Tournament</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="tournament_results">Tournament Results</string>
+    <string name="saved">Saved</string>
+    <string name="draw">DRAW</string>
+
+    <!-- History Screen -->
+    <string name="last_tournament_results">Last Tournament Results</string>
+    <string name="tournament_history">Tournament History</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="no_tournament">No Tournament Saved</string>
+    <string name="no_history">No tournament history</string>
+
+    <!-- Rules Screen -->
+    <string name="game_rules">Game Rules</string>
+    <string name="rules_text">X-O GAME RULES\n\n1. The game is played on a 3x3 grid.\n\n2. Player 1 uses X, Player 2 uses O.\n\n3. Players take turns placing their symbol in an empty cell.\n\n4. The first player to get 3 of their symbols in a row (horizontally, vertically, or diagonally) wins.\n\n5. If all 9 cells are filled and no player has 3 in a row, the game is a draw.\n\n6. A tournament consists of multiple rounds.\n\n7. The player with the most wins at the end of the tournament is the champion.\n\n8. You can play against AI with 3 difficulty levels: Easy, Medium, Hard.\n\n9. Tournament results are automatically saved and can be viewed in Scores section.</string>
+
+    <!-- Toast Messages -->
+    <string name="round_draw">Round ended in a Draw</string>
+    <string name="wins_round">wins this round</string>
+    <string name="round_reset">Round reset</string>
+    <string name="tournament_saved">Tournament Saved</string>
+    <string name="game_reset">Game reset</string>
+
+    <!-- History Item -->
+    <string name="vs">vs</string>
+    <string name="play_again">Play Again</string>
+    <string name="online">Online Multiplayer</string>
+
+    <!-- Online Menu -->
+    <string name="online_multiplayer">Online Multiplayer</string>
+    <string name="your_name">Your Name</string>
+    <string name="number_of_rounds">Number of Rounds</string>
+    <string name="enter_room_code_joining">Enter Room Code (for joining)</string>
+    <string name="create_new_game">Create New Game</string>
+    <string name="join_game">Join Game</string>
+    <string name="leave">Leave</string>
+    <string name="create_game">Create New Game</string>
+    <string name="enter_room_code">Enter Room Code</string>
+    <string name="or">OR</string>
+
+    <!-- Online Game -->
+    <string name="room_code">Room Code: %s</string>
+    <string name="you_are_x">You are: X</string>
+    <string name="you_are_o">You are: O</string>
+    <string name="waiting_for_opponent">Waiting for opponent...</string>
+    <string name="game_starting">Game starting! Your turn</string>
+    <string name="your_turn">Your turn</string>
+    <string name="opponent_turn">Opponent\'s turn</string>
+    <string name="game_created">Game created! Code: %s</string>
+    <string name="game_draw">Game ended in a Draw</string>
+    <string name="player_wins">Player %s wins</string>
+    <string name="only_host_reset">Only host can reset the game</string>
+    <string name="game_full">Game is full or invalid</string>
+    <string name="room_not_found">Room not found</string>
+    <string name="connection_error">Connection error</string>
+    <string name="failed_create_game">Failed to create game</string>
+    <string name="error_prefix">Error: </string>
+    <string name="create_error">Error creating game</string>
+    <string name="reset">Reset</string>
+
+    <!-- Online Tournament -->
+    <string name="online_tournament">Online Tournament</string>
+    <string name="waiting_for_opponent_to_join">Waiting for opponent to join</string>
+    <string name="round_x_of_y">Round %d of %d</string>
+    <string name="tournament_winner">Tournament Winner</string>
+    <string name="final_winner">Final Winner: %s</string>
+    <string name="match_point">Match Point</string>
+
+</resources>

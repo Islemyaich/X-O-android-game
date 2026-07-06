@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/online_multiplayer"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Your Name Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_name"
+            android:textColor="#B7CEC7"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="start"/>
+
+        <EditText
+            android:id="@+id/playerNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/input_bg"
+            android:hint="@string/your_name"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8FB3A9"
+            android:textSize="16sp"
+            android:paddingStart="16dp"/>
+
+        <!-- Number of Rounds -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_rounds"
+            android:textColor="#B7CEC7"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="start"/>
+
+        <!-- Buttons 5, 10, 15 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn5Rounds"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/round_unselected_green"
+                android:text="5"
+                android:textColor="#D7E7E2"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn10Rounds"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/round_unselected_green"
+                android:text="10"
+                android:textColor="#D7E7E2"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn15Rounds"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_unselected_green"
+                android:text="15"
+                android:textColor="#D7E7E2"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Enter Room Code -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_room_code_joining"
+            android:textColor="#B7CEC7"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="start"/>
+
+        <EditText
+            android:id="@+id/roomCodeInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/input_bg"
+            android:hint="@string/enter_room_code_joining"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8FB3A9"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:inputType="textCapCharacters"/>
+
+        <!-- Create New Game Button -->
+        <Button
+            android:id="@+id/createGameBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/play_btn_bg"
+            android:text="@string/create_new_game"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+
+        <!-- OR Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:textColor="#B7CEC7"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Join Game Button -->
+        <Button
+            android:id="@+id/joinGameBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bottom_btn_green"
+            android:text="@string/join_game"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bottom_btn_green"
+            android:text="@string/back"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>

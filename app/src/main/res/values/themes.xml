@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Xoandroidgame" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- 🎨 PRIMARY COLORS -->
+        <item name="colorPrimary">@color/bg_main</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorPrimaryContainer">@color/card_green</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <!-- 🎨 SECONDARY -->
+        <item name="colorSecondary">@color/round_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- 🎨 BACKGROUND -->
+        <item name="android:colorBackground">@color/bg_main</item>
+
+        <!-- 🔥 IMPORTANT -->
+        <item name="materialButtonStyle">@style/MyButtonStyle</item>
+
+    </style>
+
+    <style name="Theme.Xoandroidgame" parent="Base.Theme.Xoandroidgame"/>
+
+    <!-- 🚀 BUTTON STYLE FIX -->
+    <style name="MyButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@null</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+
+</resources>
